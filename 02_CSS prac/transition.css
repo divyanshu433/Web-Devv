@@ -1,0 +1,13 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    transform: skew(30deg);
+    margin: 20px auto;
+} 
+
+.box:hover{
+    background-color: rgb(203, 94, 176);
+    border-radius: 50%;
+    transition: 1s;
+}

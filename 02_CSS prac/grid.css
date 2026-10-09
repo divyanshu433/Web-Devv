@@ -1,0 +1,17 @@
+.container{
+    background-color: yellow;
+    height: 300px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.box{
+    background-color: rgb(201, 64, 64);
+    border: 2px solid black;
+    text-align: center;
+}
+#box1{
+    grid-column: 1/3;
+}

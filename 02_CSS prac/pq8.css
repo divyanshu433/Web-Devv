@@ -1,0 +1,19 @@
+.container{
+    height: 60px;
+    width: 100vw;
+    background-color: #f5c3cb;
+    border: 3px solid #95cdca;
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+}

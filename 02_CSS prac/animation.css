@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: cornflowerblue;
+    animation: font_animation 2s ease-in 0s infinite normal;
+    animation: color_animation 3s ease-in 0s infinite normalw;
+}
+
+@keyframes font_animation {
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+@keyframes color_animation {
+    from{
+        background-color: cornflowerblue;
+    }
+    to{
+        background-color: red;
+    }
+}

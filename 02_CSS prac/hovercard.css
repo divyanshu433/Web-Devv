@@ -1,0 +1,36 @@
+.box{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 2px 2px 15px black;
+}
+.container{
+    margin: 10px auto;
+}
+.box:hover{
+    box-shadow: 10px 10px 15px black;
+    transition: 0.25s linear 0s;
+}
+
+.box1{
+    background-image: url("image1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+h2{
+    margin-top: 7.5em;
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.box2{
+    background-image: url("image2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

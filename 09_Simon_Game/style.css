@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 40px 20px;
+}
+
+.red{
+    background-color: #d55075;
+}
+.orange{
+    background-color: #fa903b;
+}
+.cyan{
+    background-color: #57a0b9;
+}
+.blue{
+    background-color: #7694f8;
+}
+
+
+.flash{
+    background-color: white;
+}
+
+.game-over{
+    background-color: red;
+}
